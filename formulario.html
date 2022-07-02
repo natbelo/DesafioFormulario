@@ -18,17 +18,18 @@
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
-                <input type="text" minlength="3" name="nome" id="nome" required>
+                <input type="text" minlength="3" style="width: 30em" name="nome" id="nome" required>
             </div><br>
 
             <div class="campo">
                 <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" style="width: 30em" name="email" id="email" required>
             </div><br>
-
+        
+            
             <div class="campo">
                 <label><strong>Início do problema</strong></strong></label>
-                <input type="date" name="data" id="data" required>
+                <input type="date" style="width: 16em" name="data" id="data" required>
             </div><br>
 
             <div class="campo">
@@ -60,17 +61,17 @@
 
             <div class="campo">
                 <label><strong>Assunto</strong></label>
-                <input type="text" minlength="5" maxlength="20" name="assunto" id="assunto">
+                <input type="text" style="width: 30em" minlength="5" maxlength="20" name="assunto" id="assunto">
             </div><br>
 
             <div class="campo">
                 <label><strong>Descrição</strong></label>
-                <textarea row="10" style="width: 26em" minlength="5" maxlength="20" id="descricao" name="descricao"></textarea>
+                <textarea row="20" style="width: 30em" minlength="5" maxlength="100" id="descricao" name="descricao"></textarea>
             </div><br>
 
             <div>
                 <label><strong>Anexos</strong></label>
-                <input type="file" name="attachment" id="attachment">
+                <input type="file" name="attachment" id="attachment" multiple="multiple">
             </div><br>
                         
             <div>
@@ -81,7 +82,7 @@
                 <button class="botao2" type="submit">Cancelar</button>
             </div>
         
-        </fieldset><br>
+        </fieldset>
        
         
     </form>
