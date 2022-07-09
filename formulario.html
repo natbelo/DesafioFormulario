@@ -8,12 +8,12 @@
 </head>  
   
 <body>
-  
+      
   <div>
     <h1 id="titulo">Abertura de chamado de uma plataforma</h1><br>
     <p id="subtitulo">Preencha os dados</p>
     <br>
-
+  <div id="background">
     <form>
         <fieldset class="grupo">
             <div class="campo">
@@ -29,7 +29,7 @@
             
             <div class="campo">
                 <label><strong>Início do problema</strong></strong></label>
-                <input type="date" style="width: 16em" name="data" id="data" required>
+                <input type="date" style="width: 16em" name="date" id="date" max="2022-06-30" min="2022-01-01" required>
             </div><br>
 
             <div class="campo">
@@ -71,7 +71,7 @@
 
             <div>
                 <label><strong>Anexos</strong></label>
-                <input type="file" name="attachment" id="attachment" multiple="multiple">
+                <input type="file" name="attachment" id="attachment" multiple="multiple" accept="image/png,.jpg,.pdf">
             </div><br>
                         
             <div>
@@ -87,7 +87,7 @@
         
     </form>
     
-    
+  </div>    
   </div>
 </body>
 </html>
